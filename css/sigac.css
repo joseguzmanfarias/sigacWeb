@@ -75,6 +75,8 @@ p {
 }
 
 #divLogoPrincipal {
+	width:100%;
+	margin:0;
 	height:110px;
 	background-image: url('../images/logo.jpg');
 	background-repeat: no-repeat;
@@ -95,12 +97,6 @@ p {
 	text-align: right;
 }
 
-#menuTop{
-	font-size:0.9EM;
-	font-family: verdana, sans-serif;
-	color:#3E5B76;
-}
-
 #location{
 	text-align:left;
 }
@@ -108,6 +104,12 @@ p {
 #usuarioConectado{
 	text-align:right;
 	width:100%;
+}
+
+#menuTop{
+	font-size:0.9EM;
+	font-family: verdana, sans-serif;
+	color:#3E5B76;
 }
 
 #menuPrincipal {
@@ -201,4 +203,11 @@ p {
 	font-weight: bold;
 }
 
+#divFooter{
+	width:100%;
+	margin:0px;
+	background-color: #34383B;
+	color:#DDD;
+	font-size:0.9EM;
+}
 
