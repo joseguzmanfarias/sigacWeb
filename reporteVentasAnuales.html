@@ -1,0 +1,119 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Ferrex | Reportes en linea</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/sigac.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+
+<div class="container clearfix">
+	<div id='divLogoPrincipal' class="grid_12"></div>
+	<div class="clear"></div>
+	
+	<div class="grid_12" id="menuTop">
+		<table>
+			<tr>
+				<td id="location">home&nbsp|&nbspVentas&nbspAnuales</td>
+				<td id="usuarioConectado">Usuario: José Guzmán</td>
+			</tr>
+		</table>
+	</div>
+	<div class="clear"></div>
+
+	<div class="grid_12" id='titulo'>Ventas Anuales</div>
+	<div class="clear"></div>
+	
+	<div class="grid_12">
+		<div id="reporteCabecera">
+			<table>
+				<tr>
+					<td>Cliente</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Vendedor</td>
+					<td><select></select></td>
+				</tr>
+				<tr>
+					<td>Periodo</td>
+					<td><select></select></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input class="ui-button ui-widget ui-corner-all" type="submit" value=" Generar "></td>
+				</tr>
+				
+			</table>
+		</div>
+		
+		<div id="reporteDetalle">
+			<table>
+				<tr>
+					<td>Enero</td>
+					<td class="campoMonto">123.456.789</td>
+					<td>Julio</td>
+					<td class="campoMonto">123.456.789</td>
+				</tr>
+				<tr>
+					<td>Febrero</td>
+					<td class="campoMonto">123</td>
+					<td>Agosto</td>
+					<td class="campoMonto">0</td>
+				</tr>
+				<tr>
+					<td>Marzo</td>
+					<td class="campoMonto">0</td>
+					<td>Septiembre</td>
+					<td class="campoMonto">0</td>
+				</tr>
+				<tr>
+					<td>Abril</td>
+					<td class="campoMonto">0</td>
+					<td>Octubre</td>
+					<td class="campoMonto">0</td>
+				</tr>
+				<tr>
+					<td>Mayo</td>
+					<td class="campoMonto">0</td>
+					<td>Noviembre</td>
+					<td class="campoMonto">0</td>
+				</tr>
+				<tr>
+					<td>Junio</td>
+					<td class="campoMonto">0</td>
+					<td>Diciembre</td>
+					<td class="campoMonto">0</td>
+				</tr>
+				<tr id="reporteVentasAnualesTotales">
+					<td>1° Semestre</td>
+					<td class="campoMonto">0</td>
+					<td>2° Semestre</td>
+					<td class="campoMonto">0</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+  <!-- end .grid_12 -->
+  <div class="clear"></div>
+</div>
+<!-- end .container -->
+
+<script src="js/scripts.js"></script>
+</body>
+</html>

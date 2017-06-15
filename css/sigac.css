@@ -1,0 +1,204 @@
+body {
+  font-family:arial;
+  background: #F0F0F0;
+  color: #333;
+  font-size: 12px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+p {
+  border: 1px solid #666;
+  overflow: hidden;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+
+.container {
+  //background-image: url('../images/12_col.png');
+  background: #FFF;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	.container {
+		background: #FFF;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.container {
+		background: #FFF;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.container.demo {
+		background: #FFF;
+	}
+
+	body{
+		font-size: 11px
+	};
+}
+/* CAMPOS PERSONALIZADOS */
+
+.campoMonto{
+	text-align:right;
+	font-size:1EM;
+}
+
+#divLogoPrincipal {
+	height:110px;
+	background-image: url('../images/logo.jpg');
+	background-repeat: no-repeat;
+	background-color: #005A87;
+}
+
+#divLogin{
+	margin-top:10px;
+	margin-bottom:50px;
+}
+
+#divLogin table{
+	text-align: center; 
+	margin: 0 auto;
+}
+
+#divLogin table tr td{
+	text-align: right;
+}
+
+#menuTop{
+	font-size:0.9EM;
+	font-family: verdana, sans-serif;
+	color:#3E5B76;
+}
+
+#location{
+	text-align:left;
+}
+
+#usuarioConectado{
+	text-align:right;
+	width:100%;
+}
+
+#menuPrincipal {
+	background-color: #FFF;
+	margin-top:10px;
+	margin-bottom:50px;
+}
+
+#menuPrincipal table{
+	font-size:1EM;
+	width:100%;
+	text-align: center; 
+	margin: 0 auto;
+}
+
+#menuPrincipal table tr{
+	border: 1px #DDD 	 solid;
+}
+
+#menuPrincipal table tr td{
+	padding:5px;
+	text-align: center;
+}
+
+#reporteCabecera {
+	background-color: #FFF;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+#reporteCabecera table{
+	font-size:1EM;
+	width:100%;
+	text-align: left; 
+	margin: 0 auto;
+	border: 1px #DDD 	 solid;
+}
+
+#reporteCabecera table tr{
+	
+}
+
+#reporteCabecera table tr td{
+	padding:5px;
+	text-align: left;
+}
+
+#reporteDetalle {
+	background-color: #FFF;
+	margin-top:10px;
+	margin-bottom:50px;
+}
+
+#reporteDetalle table{
+	font-size:1EM;
+	width:100%;
+	text-align: left; 
+	margin: 0 auto;
+}
+
+#reporteDetalle table tr{
+	border: 1px #DDD 	 solid;
+}
+
+#reporteDetalle table tr td{
+	padding:5px;
+	border:1px #EEE solid;
+}
+
+#reporteVentasAnualesTotales{
+	font-size:1.1EM;
+	font-weight: bold;
+	border-top:2px #DDD solid !important;
+	border-bottom:2px #DDD solid !important;
+}
+
+#divTituloLogin{
+	margin-top:20px;
+	text-align: center;
+	font-family:arial;
+	font-size:1.5em;
+	color:#778899;
+	font-weight: bold;
+}
+
+#titulo{
+	text-align: center;
+	font-family:arial;
+	font-size:1.5em;
+	color:#778899;
+	font-weight: bold;
+}
+
+
